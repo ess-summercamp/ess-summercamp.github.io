@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@font-face {
+font-family: "senobi";
+  src: url(Senobi-Gothic-Bold.ttf) format("Truetype");
+}
 body{
   margin: 0;
   padding: 0;
+  font-family: 'senobi';
 }
 .page {
   width: 100vw;
@@ -61,4 +66,57 @@ body{
 animation-duration: 3s;
 font-weight: bold;
 font-family: 'Audiowide', cursive;
+}
+.belongings{
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  color: white;
+}
+.basic{
+  margin: 0;
+  padding: 0;
+  background-image: url(senko.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0px 0px 8px black;
+}
+.belobox{
+  width: 80vw;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* 要素をflexboxに対応させる */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* 縦方向の中央揃え */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* 横方向の中央揃え */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+h1{
+  font-size: 7vh;
+  margin: 0;
+  padding:0;
+}
+h2{
+  font-size: 5vh;
+  margin: 3px;
+  padding:0;
+}
+.belolist{
+  font-size: 4vh;
+  width: 70vw;
+}
+.belocaution{
+  font-family: cursive;
+    font-size: 2vh;
 }

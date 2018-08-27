@@ -66,10 +66,24 @@ font-family: 'Audiowide', cursive;
 .belongings{
   margin: 0;
   padding: 0;
-  background-color: #444;
+  background-image: url(img147h94957_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: white;
+  text-shadow: 0px 0px 8px black;
 }
 .basic{
+  margin: 0;
+  padding: 0;
+  background-image: url(kapibara.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0px 0px 8px black;
+}
+.koutei_1{
   margin: 0;
   padding: 0;
   background-image: url(senko.jpg);
@@ -78,6 +92,19 @@ font-family: 'Audiowide', cursive;
   background-attachment: fixed;
   color: white;
   text-shadow: 0px 0px 8px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* 要素をflexboxに対応させる */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* 縦方向の中央揃え */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* 横方向の中央揃え */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
 }
 .belobox{
   width: 80vw;
@@ -99,7 +126,7 @@ font-family: 'Audiowide', cursive;
           flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
 }
 h1{
-  font-size: 7vh;
+  font-size: 5vh;
   margin: 0;
   padding:0;
 }
@@ -115,4 +142,17 @@ h2{
 .belocaution{
   font-family: cursive;
     font-size: 2vh;
+}
+.nittei{
+  margin: 5vh;
+}
+.cau{
+  margin: 0;
+  padding: 0;
+  background-image: url(bbqhowto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 0px 0px 8px black;
 }

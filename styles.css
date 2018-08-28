@@ -146,6 +146,20 @@ h2{
 }
 .nittei{
   margin: 5vh;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* 要素をflexboxに対応させる */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; /* 縦方向の中央揃え */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; /* 横方向の中央揃え */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
 }
 .cau{
   margin: 0;
@@ -162,5 +176,18 @@ h2{
     width: 80vw;
 }
 .basicbox{
-    width: 80vw
+    width: 80vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; /* 要素をflexboxに対応させる */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; /* 縦方向の中央揃え */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; /* 横方向の中央揃え */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
 }

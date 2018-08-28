@@ -176,7 +176,6 @@ h2{
     width: 80vw;
 }
 .basicbox{
-    width: 80vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; /* 要素をflexboxに対応させる */

@@ -3,6 +3,7 @@
 body{
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 .page {
   width: 100vw;
@@ -172,10 +173,10 @@ h2{
   text-shadow: 0px 0px 8px black;
 }
 .caution{
-
     width: 80vw;
 }
 .basicbox{
+    width: 80vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; /* 要素をflexboxに対応させる */
